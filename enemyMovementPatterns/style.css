@@ -1,0 +1,14 @@
+#canvas1, #canvas2, #canvas3, #canvas4{
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1000px;
+    width: 500px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
